@@ -1,0 +1,56 @@
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    margin-bottom: 5px;
+}
+#input{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.task {
+    color: red;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+label{
+    padding-right: 5px;
+}
+
+.task.completed span {
+    color: green;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 10px;
+}
