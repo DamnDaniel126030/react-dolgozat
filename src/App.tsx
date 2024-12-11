@@ -10,8 +10,6 @@ interface Product {
   sold : boolean;
 }
 
-
-
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
   const [newProductName, setNewProductName] = useState("");
@@ -73,7 +71,6 @@ function App() {
 
   return (
     <>
-      <form>
         <div className='container position-absolute top-50 start-50 translate-middle'>
           <div>
             <h2 className='text-center'>Bevásárló lista</h2>
@@ -119,7 +116,6 @@ function App() {
               )})}
           </ul> 
         </div>
-      </form>
       
     </>
   )
